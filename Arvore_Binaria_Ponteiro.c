@@ -113,6 +113,7 @@ void inserirDireita(No *no, int valor){
     }
 }*/
 
+// Funcao para inserir na arvore
 No* inserirNovaVersao(No *raiz, int valor){
     if(raiz == NULL) {
         No *novo = (No *) malloc(sizeof(No));
@@ -129,8 +130,45 @@ No* inserirNovaVersao(No *raiz, int valor){
     }
 }
 
+//Funçao para contar o nível da árvore
+int tamanho(No *raiz){
+    if(raiz == NULL)
+        return 0;
+    else
+        return 1 + tamanho(raiz->esquerda) + tamanho(raiz->direita);
+}
 
+/*int buscar(No *raiz, int chave){
+     if(raiz == NULL)
+         return -1; // Retorno nao deve pertencer ao conjunto de elementos da arvore
+     else{
+         if(raiz->conteudo == chave)
+             return raiz->conteudo;
+         else{
+             if(chave < raiz->conteudo)
+                 return buscar(raiz->esquerda,chave);
+             else
+                 return buscar(raiz->direita,chave);
+         }
+     }
+}*/
 
+int buscar(No *raiz, int chave){
+     if(raiz == NULL)
+         return 0; // se o elemento nao estiver na arvore
+     else{
+         if(raiz->conteudo == chave)
+             return 1; // se o elemento pertencer a arvore
+         else{
+             if(chave < raiz->conteudo)
+                 return buscar(raiz->esquerda,chave);
+             else
+                 return buscar(raiz->direita,chave);
+         }
+     }
+}
+
+//Funçao para imprimir os elementos da arvore
 void imprimir(No *raiz){
     if(raiz != NULL){
         imprimir(raiz->esquerda);
@@ -142,13 +180,10 @@ void imprimir(No *raiz){
 
 int main(){
     int op,valor;
-    ArvB arv;
-    arv.raiz = NULL;
-
     No *raiz = NULL;
 
     do {
-        printf("\n0 - Sair\n1 - inserir\n2 - Imprimir\n");
+        printf("\n0 - Sair\n1 - inserir\n2 - Imprimir\n3- Buscar\n");
         scanf("%d",&op);
         switch (op) {
             case 0:
@@ -163,6 +198,12 @@ int main(){
                 printf("\nImpressao da arvore binaria:\n");
                 imprimir(raiz);
                 printf("\n");
+                printf("Tamanho: %d\n", tamanho(raiz));
+                break;
+            case 3:
+                printf("Qual valor deseja buscar?");
+                scanf("%d",&valor);
+                printf("Resultado da busca: %d\n", buscar(raiz,valor));
                 break;
             default:
                 printf("\n Opcao invalida!\n");
