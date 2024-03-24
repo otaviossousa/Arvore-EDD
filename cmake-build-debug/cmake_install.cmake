@@ -1,4 +1,4 @@
-# Install script for directory: C:/Users/otavi/Desktop/Atividade_Arvore
+# Install script for directory: C:/Users/otavi/OneDrive/TADS/MÓDULO 3/ESTRUTURA DE DADOS II/Atividades/Atividade_Arvore
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -45,5 +45,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "C:/Users/otavi/Desktop/Atividade_Arvore/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "C:/Users/otavi/OneDrive/TADS/MÓDULO 3/ESTRUTURA DE DADOS II/Atividades/Atividade_Arvore/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

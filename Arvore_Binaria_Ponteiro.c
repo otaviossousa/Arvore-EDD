@@ -113,6 +113,8 @@ void inserir(ArvB *arv, int valor){
     }
 }
 
+// novo metodo de inserir
+
 void imprimir(No *raiz){
     if(raiz != NULL){
         imprimir(raiz->esquerda);

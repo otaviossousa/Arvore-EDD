@@ -11,7 +11,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "C:/Users/otavi/Desktop/Atividade_Arvore/cmake-build-debug"
+			"value" : "C:/Users/otavi/OneDrive/TADS/M\u00d3DULO 3/ESTRUTURA DE DADOS II/Atividades/Atividade_Arvore/cmake-build-debug"
 		},
 		{
 			"name" : "Atividade_2_IS_TOP_LEVEL",
@@ -35,7 +35,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "C:/Users/otavi/Desktop/Atividade_Arvore"
+			"value" : "C:/Users/otavi/OneDrive/TADS/M\u00d3DULO 3/ESTRUTURA DE DADOS II/Atividades/Atividade_Arvore"
 		},
 		{
 			"name" : "CMAKE_ADDR2LINE",
@@ -91,7 +91,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "c:/Users/otavi/Desktop/Atividade_Arvore/cmake-build-debug"
+			"value" : "c:/Users/otavi/OneDrive/TADS/M\u00d3DULO 3/ESTRUTURA DE DADOS II/Atividades/Atividade_Arvore/cmake-build-debug"
 		},
 		{
 			"name" : "CMAKE_CACHE_MAJOR_VERSION",
@@ -467,7 +467,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "C:/Users/otavi/Desktop/Atividade_Arvore/cmake-build-debug/CMakeFiles/pkgRedirects"
+			"value" : "C:/Users/otavi/OneDrive/TADS/M\u00d3DULO 3/ESTRUTURA DE DADOS II/Atividades/Atividade_Arvore/cmake-build-debug/CMakeFiles/pkgRedirects"
 		},
 		{
 			"name" : "CMAKE_GENERATOR",
@@ -539,7 +539,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "C:/Users/otavi/Desktop/Atividade_Arvore"
+			"value" : "C:/Users/otavi/OneDrive/TADS/M\u00d3DULO 3/ESTRUTURA DE DADOS II/Atividades/Atividade_Arvore"
 		},
 		{
 			"name" : "CMAKE_INSTALL_PREFIX",
