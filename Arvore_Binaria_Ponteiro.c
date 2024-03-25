@@ -185,7 +185,7 @@ int main(){
                 printf("\nSaindo....\n"); // Mensagem de saída
                 break;
             case 1:
-                printf("\nDigite um valor para inserir na arvore: ");
+                printf("\nDigite um valor para inserir na arvore:");
                 scanf("%d", &valor);
                 raiz = inserir(raiz, valor); // Chama a função para inserir um valor na árvore
                 break;
@@ -195,8 +195,13 @@ int main(){
                 printf("\n");
                 printf("Tamanho: %d\n", tamanho(raiz)); // Imprime o tamanho da árvore
                 break;
+            case 3:
+                printf("\nDigite o valor que voce deseja buscar:");
+                scanf("%d", &valor);
+                printf("Resultado da busca: %d\n",buscar(raiz,valor));
+                break;
             case 4:
-                printf("\nDigite um valor a ser removido: ");
+                printf("\nDigite um valor a ser removido:");
                 scanf("%d", &valor);
                 raiz = remover(raiz, valor); // Chama a função para remover um valor da árvore
                 break;
@@ -204,7 +209,7 @@ int main(){
                 printf("\nA altura da arvore e: %d\n", alturaArv(raiz)); // Calcula e imprime a altura da árvore
                 break;
             case 6:
-                printf("\nDigite o valor para calcular a altura da subarvore: ");
+                printf("\nDigite o valor para calcular a altura da subarvore:");
                 scanf("%d", &valor);
                 printf("\nA altura da subarvore e: %d\n", alturaSubArv(raiz, valor)); // Calcula e imprime a altura da subárvore
                 break;
